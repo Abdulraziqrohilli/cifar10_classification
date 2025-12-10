@@ -1,4 +1,8 @@
 from flask import Flask, request, render_template
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # suppress warnings and info messages
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'  # optional: disable oneDNN
+
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import numpy as np

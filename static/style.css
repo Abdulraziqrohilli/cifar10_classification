@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center container */
+.container {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #4a90e2;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+.upload-form input[type="file"] {
+    display: block;
+    margin: 20px auto;
+}
+
+.upload-form button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: #357ab7;
+}
+
+/* Prediction result */
+.result {
+    margin-top: 30px;
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d0e1fd;
+}
+
+.result h2 {
+    color: #1a73e8;
+    margin: 0;
+}

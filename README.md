@@ -8,7 +8,11 @@ In addition to model training, a **Flask-based web application** with **HTML & C
 The project demonstrates the **full machine learning pipeline**, from training to deployment.
 
 ---
+### Example UI Screenshot
 
+![Project UI Screenshot](templates/CIFAR_10_Image_Classification10.PNG)
+
+---
 ## Dataset
 
 - Dataset: **CIFAR-10**
